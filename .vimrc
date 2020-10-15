@@ -1,13 +1,16 @@
+"sourcing vimrc using F5
+map <F5> : source ~/.vim/.vimrc<CR>
+"use <F2> to move to previous buffer and <F3> next buffer
+map <F2> :bprev<CR>
+map <F3> :bnext<CR>
+
 "turn on syntax highlighting
 syntax on
 "set line numbers
 set nu
-"set color-not working
-"packadd!dracula
-"syntax enable
-"colorscheme dracula
-"load filetype-specific indent files
 filetype indent on
+"set a colour scheme
+colorscheme slate
 "set size of tabs to be 4 spaces
 set tabstop=4
 "set size of an indent
@@ -20,6 +23,8 @@ set softtabstop=4
 set path+=**
 "Display all matching files when we tab complete
 set wildmenu
+
+
 
 
 
